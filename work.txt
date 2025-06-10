@@ -1,0 +1,112 @@
+
+RAM@LENOVO MINGW64 /c/Workspace/advance java/209/Sample2 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   src/com/tka/Test.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        bin/
+
+
+RAM@LENOVO MINGW64 /c/Workspace/advance java/209/Sample2 (main)
+$ git add .classpath
+
+RAM@LENOVO MINGW64 /c/Workspace/advance java/209/Sample2 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   src/com/tka/Test.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .project
+        .settings/
+        bin/
+
+
+RAM@LENOVO MINGW64 /c/Workspace/advance java/209/Sample2 (main)
+$ git rm --cached .classpath
+rm '.classpath'
+
+RAM@LENOVO MINGW64 /c/Workspace/advance java/209/Sample2 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   src/com/tka/Test.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        bin/
+
+
+RAM@LENOVO MINGW64 /c/Workspace/advance java/209/Sample2 (main)
+$ git add .
+
+RAM@LENOVO MINGW64 /c/Workspace/advance java/209/Sample2 (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.core.resources.prefs
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   bin/com/tka/Test.class
+        new file:   src/com/tka/Test.java
+
+
+RAM@LENOVO MINGW64 /c/Workspace/advance java/209/Sample2 (main)
+$ git commit -m "first commit"
+[main (root-commit) 49ad78c] first commit
+ 6 files changed, 53 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 bin/com/tka/Test.class
+ create mode 100644 src/com/tka/Test.java
+
+RAM@LENOVO MINGW64 /c/Workspace/advance java/209/Sample2 (main)
+$ git branch -M main
+
+RAM@LENOVO MINGW64 /c/Workspace/advance java/209/Sample2 (main)
+$ git remote add origin https://github.com/the-kiran-academy/Sample2.git
+
+RAM@LENOVO MINGW64 /c/Workspace/advance java/209/Sample2 (main)
+$ git push -u origin main
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (15/15), 1.83 KiB | 937.00 KiB/s, done.
+Total 15 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/the-kiran-academy/Sample2.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+RAM@LENOVO MINGW64 /c/Workspace/advance java/209/Sample2 (main)
+$
